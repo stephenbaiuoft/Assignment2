@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.stephenbai.assignment2.enterTitleFrag">
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+
+        android:hint="Title"
+        android:layout_marginTop="60dp"
+        android:padding="6dp"
+        android:id="@+id/movie_title"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="Enter Actor Name"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:background="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Actor"
+        android:layout_marginTop="320dp"
+        android:padding="6dp"
+        android:id="@+id/movie_actor"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:id="@+id/spinner" />
+
+
+    <Button
+        android:text="Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:id="@+id/add_entry"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Done Adding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/done_adding"
+        android:layout_marginTop="450dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Enter Year"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:background="@android:color/holo_blue_bright" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter Movie Title"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:background="@android:color/holo_blue_bright"
+        android:backgroundTint="@android:color/holo_blue_bright" />
+
+
+</FrameLayout>

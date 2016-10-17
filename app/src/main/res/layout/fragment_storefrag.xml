@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/storefrag_container"
+    tools:context="com.example.stephenbai.assignment2.storefrag"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="  Enter File Name"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:hint="DefaultTempFile"
+
+        android:textStyle="normal|italic"
+        android:layout_gravity="start"
+        android:textAlignment="viewStart"
+        android:id="@+id/file_name"
+        />
+
+    <Button
+        android:text="Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:id="@+id/confirm" />
+
+</FrameLayout>
